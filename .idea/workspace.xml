@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41115458-2be2-4f5a-8485-4be71e0d0d5a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Inversion_Of_Control" beforeDir="false" afterPath="$PROJECT_DIR$/../Inversion_Of_Control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesfm/company/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesfm/company/service/DepartmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../highschool-ioc2" beforeDir="false" afterPath="$PROJECT_DIR$/../highschool-ioc2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../highschool-swing" beforeDir="false" afterPath="$PROJECT_DIR$/../highschool-swing" afterDir="false" />
     </list>
