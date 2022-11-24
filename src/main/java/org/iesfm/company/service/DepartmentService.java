@@ -26,18 +26,22 @@ public class DepartmentService {
         return departmentDAO.getDepartment(name);
     }
 
-    public boolean add(Department department){
+    public boolean addDepartment(Department department){
         return departmentDAO.add(department);
     }
 
-    public boolean delete( String name){
+    public boolean deleteDepartment( String name){
         return departmentDAO.delete(name);
     }
 
-    public List <Employee> getEmployee(){
-        return employeeDAO.getEmployees();
-    }
+    public List <Employee> getEmployee(){return employeeDAO.getEmployees();}
 
-    
+    public List<Employee> getDepartmentEmployees(String departmentName){return employeeDAO.getDepartmentEmployees(departmentName);}
+
+    public boolean addEmployee(Employee employee){return employeeDAO.addEmployee(employee);};
+
+    public boolean deleteEmployee(String nif){return employeeDAO.deleteEmployee(nif);};
+
+    public Employee getEmployee(String nif){return employeeDAO.getEmployee(nif);};
 
 }

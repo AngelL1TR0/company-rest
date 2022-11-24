@@ -28,6 +28,6 @@ public class InMemoryDepartmentDAO implements DepartmentDAO {
 
     @Override
     public Department getDepartment(String departmentName) {
-        return departments.remove(departmentName);
+        return departments.get(departmentName);
     }
 }
